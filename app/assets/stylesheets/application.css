@@ -12,6 +12,7 @@
  *
  *= require_self
  *= require bootstrap
+ *= require fontawesome
  *= require ./base
  *= require_tree ./layouts
  *= require_tree ./modules

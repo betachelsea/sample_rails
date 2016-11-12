@@ -10,4 +10,8 @@ class User < ActiveRecord::Base
     "original hello!"
   end
 
+  def say_yum
+    "美味しい！"
+  end
+
 end

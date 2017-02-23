@@ -24,7 +24,7 @@ RSpec.describe User, type: :model do
       expect(user).to receive(:eat) do |arg|
         expect(arg.class).to eq(Sushi)
       end
-      sushi = Sushi.create(name: "甘エビ")
+      sushi = Sushi.new(name: "甘エビ")
       user.eat(sushi)
     end
   end
